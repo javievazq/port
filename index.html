@@ -1,0 +1,238 @@
+<!doctype html>
+<html class="no-js" lang="">
+   <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>port</title>
+      <link rel="apple-touch-icon" href="apple-touch-icon.png">
+      <!-- Place favicon.ico in the root directory -->
+      <!-- build:css styles/vendor.css -->
+      <!-- bower:css -->
+      <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+      <link rel="stylesheet" href="/bower_components/animate.css/animate.css" />
+      <!-- endbower -->
+      <!-- endbuild -->
+      <!-- build:css styles/main.css -->
+      <link rel="stylesheet" href="styles/main.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css">
+      <!-- endbuild -->
+      <!-- build:js scripts/vendor/modernizr.js -->
+      <script src="/bower_components/modernizr/modernizr.js"></script>
+      <!-- endbuild -->
+   </head>
+   <body>
+      <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      <ul id="menu">
+         <li data-menuanchor="page1" class="active"><a href="#page1">About Me</a></li>
+         <li data-menuanchor="page2"><a href="#page2">Web Design</a></li>
+         <li data-menuanchor="page3"><a href="#page3">Graphic Design</a></li>
+         <li data-menuanchor="page4"><a href="#page4">Contact Me</a></li>
+      </ul>
+      <div id="pagepiling">
+         <div class="section" id="section1">
+            <h1 class="animated zoomIn" id="zoom">Javier Vazquez</h1>
+            <p class="animated zoomIn">Web Developer - Graphic Designer - All Around Chill Guy</p>
+            <br />
+         </div>
+         <div class="section" id="section7">
+           <h1>Resume</h1>
+            <div id="accordion" role="tablist" aria-multiselectable="true">
+               <div class="card">
+                  <div class="card-header" role="tab" id="headingOne">
+                     <h5 class="mb-0">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Tech Skills
+                        </a>
+                     </h5>
+                  </div>
+                  <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                     <div class="card-block">
+                        <ul>
+                           <li>Adobe Photoshop Certified & Adobe Illustrator</li>
+                           <li>HTML, CSS, JS, PHP, & MYSQL</li>
+                           <li>IOS and Android devices</li>
+                           <li>Windows</li>
+                           <li>Microsoft Office</li>
+                           <li>Seminars and conventions</li>
+                           <li>2014 DEV Connections</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-header" role="tab" id="headingTwo">
+                     <h5 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Work Experience
+                        </a>
+                     </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                     <div class="card-block">
+                        <ul>
+                        <li>November 2016 - Present - Coded, Inc: UX Developer</li>
+                        <ul>
+                           <li>Web Development</li>
+                           <ul>
+                              <li>Client-Side Programming</li>
+                              <li>Server-Side Programming</li>
+                           </ul>
+                        </ul>
+                        <ul>
+                           <li>Graphic Design</li>
+                           <ul>
+                              <li>Photoshop</li>
+                              <li>Illustrator</li>
+                           </ul>
+                        </ul>
+                        <ul>
+                        <li>November 2015 - November 2016 - Northrop Grumman: Web Dev Intern</li>
+                        <ul>
+                           <li>Web Development</li>
+                           <ul>
+                              <li>Client-Side Programming</li>
+                              <ul>
+                                 <li>Coldfusion</li>
+                              </ul>
+                              <li>Server-Side Programming</li>
+                           </ul>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-header" role="tab" id="headingThree">
+                     <h5 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Education
+                        </a>
+                     </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                     <div class="card-block">
+                        <ul>
+                           <li>2015-Present: University of Central Florida, Orlando, FL</li>
+                           <ul>
+                              <li>Bachelors - Digital Media: Web Design</li>
+                           </ul>
+                        </ul>
+                        <ul>
+                           <li>2010 - 2015: Valencia Community College, Orlando, FL</li>
+                           <ul>
+                              <li>General AA</li>
+                           </ul>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section2">
+            <div class="intro container-fluid">
+               <div class="row">
+                  <svg id="fillgauge4" class="col-md-4 col-xs-2" width="100%" height="250" onclick="gauge4.update(NewValue());"><text x="20" y="50" fill="black">HTML</text></svg>
+                  <svg id="fillgauge5" class="col-md-4 col-xs-2" width="100%" height="250" onclick="gauge5.update(NewValue());"><text x="20" y="50" fill="black">CSS</text></svg>
+                  <svg id="fillgauge6" class="col-md-4 col-xs-2" width="100%" height="250" onclick="gauge6.update(NewValue());"><text x="50" y="50" fill="black">PHP</text></svg>
+               </div>
+               <div class="row">
+                  <svg id="fillgauge7" class="col-md-6 col-xs-2" width="100%" height="250" onclick="gauge7.update(NewValue());"><text x="150" y="50" fill="black">JS</text></svg>
+                  <svg id="fillgauge8" class="col-md-6 col-xs-2"width="100%" height="250" onclick="gauge8.update(NewValue());"><text x="120" y="50" fill="black">My SQL</text></svg>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section5">
+           <h1>Web Portfolio</h1>
+            <div class="container">
+               <div id="carousel">
+                  <figure><img src="images/web1.jpg" href="http://sulley.cah.ucf.edu/~ja967101/store/index.php" alt=""></figure>
+                  <figure><img src="images/web2.jpg" href="http://sulley.cah.ucf.edu/~ja967101/project1/" alt=""></figure>
+                  <figure><img src="images/web3.jpg" alt=""></figure>
+                  <figure><img src="images/web4.jpg" href="www.codedsolutions.net" alt=""></figure>
+                  <figure><img src="images/web1.jpg" href="http://sulley.cah.ucf.edu/~ja967101/store/index.php" alt=""></figure>
+                  <figure><img src="images/web2.jpg" href="http://sulley.cah.ucf.edu/~ja967101/project1/" alt=""></figure>
+                  <figure><img src="images/web3.jpg" alt=""></figure>
+                  <figure><img src="images/web4.jpg" href="www.codedsolutions.net" alt=""></figure>
+                  <figure><img src="images/web1.jpg" href="http://sulley.cah.ucf.edu/~ja967101/store/index.php" alt=""></figure>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="section" id="section3">
+         <div class="intro">
+            <br><br><br>
+            <div class="row">
+               <svg id="fillgauge1" class="col-md-4 col-sm-1" width="100%" height="400" onclick="gauge1.update(NewValue());"><text x="10" y="50" fill="black">Photoshop</text></svg>
+               <svg id="fillgauge2"class="col-md-4 col-sm-1" width="100%" height="400" onclick="gauge2.update(NewValue());"><text x="15" y="50" fill="black">Illustrator</text></svg>
+               <svg id="fillgauge3" class="col-md-4 col-sm-1" width="100%" height="400" onclick="gauge3.update(NewValue());"><text x="15" y="50" fill="black">InDesign</text>></svg>
+            </div>
+         </div>
+      </div>
+      <div class="section" id="section6">
+        <h1>Graphic Portfolio</h1>
+         <div class="container">
+            <div id="carousel">
+               <figure><img src="images/logo1.jpg" alt=""></figure>
+               <figure><img src="images/logo2.jpg" alt=""></figure>
+               <figure><img src="images/logo3.jpg" alt=""></figure>
+               <figure><img src="images/logo4.jpg" alt=""></figure>
+               <figure><img src="images/logo5.jpg" alt=""></figure>
+               <figure><img src="images/logo1.jpg" alt=""></figure>
+               <figure><img src="images/logo2.jpg" alt=""></figure>
+               <figure><img src="images/logo3.jpg" alt=""></figure>
+               <figure><img src="images/logo4.jpg" alt=""></figure>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class="section" id="section4">
+         <div class="intro">
+            <form action="form.php" method="post">
+               <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Enter Name">
+               </div>
+               <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="email" placeholder="Enter email">
+               </div>
+               <div class="form-group">
+                  <label for="exampleTextarea">Message</label>
+                  <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+               </div>
+               <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+         </div>
+      </div>
+      </div>
+      <!-- build:js scripts/vendor.js -->
+      <!-- bower:js -->
+      <script src="/bower_components/jquery/dist/jquery.js"></script>
+      <script src="/bower_components/tether/dist/js/tether.js"></script>
+      <script src="/bower_components/modernizr/modernizr.js"></script>
+      <script src="/bower_components/d3/d3.js"></script>
+      <!-- endbower -->
+      <!-- endbuild -->
+      <!-- build:js scripts/plugins.js -->
+      <script src="/bower_components/bootstrap/js/dist/util.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/button.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/carousel.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/collapse.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/dropdown.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/modal.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/tab.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
+      <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
+      <!-- endbuild -->
+      <!-- build:js scripts/main.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+      <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+      <script src="scripts/liquidfill.js"></script>
+      <script src="scripts/main.js"></script>
+      <!-- endbuild -->
+   </body>
+</html>
