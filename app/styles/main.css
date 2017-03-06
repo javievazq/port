@@ -416,3 +416,13 @@ img:hover{
 		transform: rotateY(360deg);
 	}
 }
+.card-block{
+	color: #000;
+	text-align: left;
+	width: 40%;
+	margin: 0 auto;
+}
+form{
+	width: 50%;
+	margin: 0 auto;
+}
