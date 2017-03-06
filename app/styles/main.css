@@ -426,3 +426,9 @@ form{
 	width: 50%;
 	margin: 0 auto;
 }
+body{
+	font-family: 'Amiko', sans-serif;
+}
+h1{
+	font-family: 'Ubuntu', sans-serif;
+}
